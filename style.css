@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+div{
+    display: flex;
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.img{
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width:auto;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn{
+    height: 40px;
+    width: 75%;
+    color: white;
+    padding-bottom: 4px;
+    font-size: 100%;
+    background-color: #1877f2;
+    border-radius: 5px;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #1894f2;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#email, #password{
+    height: 40px;
+    width: 100%;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+#email{
+    background-color: #f5f6f7;
+    
+}
+
+#password{
+    background-color: #f5f6f7;
+}
+
+.forpass{
+    align-items: center;
+    justify-content: center;
+}
+
+.forgotten{
+    padding: 2%;
+    
+}
+
+.forgotten a{
+    text-decoration: none;
+    color: #1877f2;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+#hour, #minute{
+    position: absolute;
+    background: gray;
+}
+
+#hour{
+    width: 37.5%;
+    height: 0.2%;
+    top: 40%;
+    left: 7.8%;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
+
+#minute{
+    width: 37.5%;
+    height: 0.2%;
+    top: 40%;
+    right: 7.8%;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
+#orb{
+    color: #444b52;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    top: 38%;
+    left: 49%;
+    position: absolute;
+}
+
+#cnacc{
+    top: 45%;
+    position: absolute;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    left: 17.32%;
+    border: 0.5px solid rgb(172, 171, 171);
+    height: 40px;
+    width: 60%;
+    border-radius: 4.8px;
+}
